@@ -7,7 +7,10 @@
       <!-- Scrollable container -->
       <div class="flex-1 overflow-y-scroll">
         <div class="flex items-center justify-end px-6 py-4">
-          <div class="flex items-center">
+          <nuxt-link
+            to="/profile"
+            class="flex items-center p-2 hover:bg-gray-100 rounded-full"
+          >
             <img
               class="h-10 w-10 md:h-12 md:w-12 rounded-full"
               src="https://zdenekpasek.com/images/me.jpg"
@@ -15,9 +18,9 @@
             />
             <div class="ml-4 hidden md:block">
               <p class="font-bold">Zdeněk Pašek</p>
-              <span class="text-gray-500">hello@zdenekpasek.com</span>
+              <p class="text-gray-500">hello@zdenekpasek.com</p>
             </div>
-          </div>
+          </nuxt-link>
         </div>
         <div class="p-6">
           <Nuxt />
