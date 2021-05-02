@@ -1,12 +1,14 @@
 <template>
-  <div class="bg-white shadow-xl">
-    <header class="p-5 md:p-10">
+  <div
+    class="bg-white shadow border-r border-gray-200 rounded-r py-10 px-5 md:px-10"
+  >
+    <header class="mb-20">
       <h1 class="text-xl font-bold text-center md:hidden">AP</h1>
-      <h1 class="text-xl font-bold hidden md:block">Admin panel</h1>
+      <h1 class="text-xl font-bold text-center hidden md:block">Admin panel</h1>
     </header>
     <div>
-      <ul class="mx-5 md:mx-10">
-        <li class="py-5 md:flex">
+      <ul class="">
+        <li class="mb-14 md:flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -23,45 +25,49 @@
           </svg>
           <p class="text-center md:ml-6">Home</p>
         </li>
-        <li class="py-5 md:flex">
+        <li class="mb-14 md:flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 mx-auto md:mx-0"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            class="h-5 w-5 mx-auto md:mx-0"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
             />
           </svg>
           <p class="text-center md:ml-6">Users</p>
         </li>
-        <li class="py-5 md:flex">
+        <li class="mb-14 md:flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 mx-auto md:mx-0"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            class="h-5 w-5 mx-auto md:mx-0"
           >
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
           <p class="text-center md:ml-6">Settings</p>
         </li>
       </ul>
-
-      <button
-        class="bg-pink-400 text-white flex items-center px-8 py-2 rounded mx-auto hover:bg-pink-600 focus:outline-none"
-      >
+      <hr class="my-20" />
+      <button class="flex items-center focus:outline-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"

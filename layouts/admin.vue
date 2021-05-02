@@ -13,7 +13,7 @@
               src="https://zdenekpasek.com/images/me.jpg"
               alt="Zdeněk"
             />
-            <div class="ml-4">
+            <div class="ml-4 hidden md:block">
               <p class="font-bold">Zdeněk Pašek</p>
               <span class="text-gray-500">hello@zdenekpasek.com</span>
             </div>
