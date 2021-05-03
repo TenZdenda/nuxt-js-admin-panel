@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="mb-10 flex items-center">
-      <div class="bg-indigo-100 rounded-full py-2 px-3 text-2xl">🤠</div>
+      <div class="bg-pink-100 rounded-full py-2 px-3 text-2xl">🤠</div>
       <div class="ml-5">
         <h1 class="text-2xl font-bold">Hello Zdeněk Pašek 👋🏼</h1>
         <p class="text-gray-500">How are you today?</p>
