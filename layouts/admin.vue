@@ -8,7 +8,7 @@
       <div class="flex-1 overflow-y-scroll">
         <div class="flex items-center justify-end px-6 py-4">
           <nuxt-link
-            to="/profile"
+            to="/admin/profile"
             class="flex items-center p-2 hover:bg-gray-100 rounded-full"
           >
             <img
