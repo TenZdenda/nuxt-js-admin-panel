@@ -31,12 +31,60 @@
       </div>
     </div>
 
-    <Table />
+    <Table
+      :thead="thead"
+      :data="data"
+      :updates="true"
+      @delete="deleteItem"
+      @edit="editItem"
+    />
   </div>
 </template>
 
 <script>
 export default {
   layout: 'admin',
+  data() {
+    return {
+      thead: ['Name', 'Email', 'Phone'],
+      data: [
+        [
+          {
+            id: 10,
+            image: 'https://avatars.githubusercontent.com/u/39481226?v=4',
+            text: 'Zdeněk Pašek',
+          },
+          {
+            text: 'hello@zdenekpasek.com',
+          },
+          {
+            text: '+45 11 22 33 44',
+          },
+        ],
+        [
+          {
+            id: 11,
+            image:
+              'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=30',
+            text: 'John Doe',
+          },
+          {
+            text: 'johndoe@example.com',
+          },
+          {
+            text: '+420 111 333 444',
+          },
+        ],
+      ],
+    }
+  },
+  methods: {
+    deleteItem(item) {
+      console.log(item)
+    },
+    editItem(item) {
+      console.log(item)
+    },
+  },
 }
 </script>
