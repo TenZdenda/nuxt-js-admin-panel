@@ -20,7 +20,8 @@
 
       <p class="text-center block mt-5 text-black">
         Don't have an account?
-        <a href="/register" class="font-bold hover:text-pink-700">Create one</a
+        <nuxt-link to="/register" class="font-bold hover:text-pink-700"
+          >Create one</nuxt-link
         >!
       </p>
     </form>

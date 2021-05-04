@@ -24,7 +24,9 @@
 
       <p class="text-center block mt-5 text-black">
         Already have an account?
-        <a href="/login" class="font-bold hover:text-pink-700">Sign in</a>!
+        <nuxt-link to="/login" class="font-bold hover:text-pink-700"
+          >Sign in</nuxt-link
+        >!
       </p>
     </form>
   </div>
