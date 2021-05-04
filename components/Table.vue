@@ -79,8 +79,6 @@
                   <a href="#" class="text-indigo-600 hover:text-indigo-900"
                     >Edit</a
                   >
-                  <span class="mx-2">|</span>
-                  <a href="#" class="text-red-600 hover:text-red-900">Delete</a>
                 </td>
               </tr>
             </tbody>

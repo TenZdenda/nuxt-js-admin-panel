@@ -3,8 +3,8 @@
     class="w-64 bg-white shadow-lg px-5 py-8 space-y-16 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out"
     :class="{ '-translate-x-full': bool }"
   >
-    <div class="flex justify-between space-x-5 px-4">
-      <div class="flex items-center">
+    <div class="flex justify-between px-4">
+      <div class="flex items-center space-x-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
