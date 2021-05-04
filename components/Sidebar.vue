@@ -5,7 +5,7 @@
   >
     <div class="flex justify-between px-4">
       <div class="flex items-center space-x-5">
-        <div class="bg-white px-3 py-2 rounded-full">🚀</div>
+        <div class="bg-gray-700 px-3 py-2 rounded-2xl">🚀</div>
         <span class="text-xl font-bold">LOGO</span>
       </div>
       <button class="focus:outline-none md:hidden" @click="closeMenu">
