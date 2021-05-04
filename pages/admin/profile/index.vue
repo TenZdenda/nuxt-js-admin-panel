@@ -20,6 +20,14 @@
         Edit profile
       </nuxt-link>
     </div>
+
+    <div class="absolute right-0 bottom-0 space-y-2 m-3">
+      <Notification
+        type="error"
+        title="There is some problem with your name"
+        message="This is notification message"
+      />
+    </div>
   </div>
 </template>
 

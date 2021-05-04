@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-64 bg-gray-900 rounded-r-lg text-gray-100 px-5 py-8 space-y-16 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out"
+    class="w-64 bg-gray-900 rounded-r-lg text-gray-100 px-5 py-8 space-y-16 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out z-10"
     :class="{ '-translate-x-full': bool }"
   >
     <div class="flex justify-between px-4">

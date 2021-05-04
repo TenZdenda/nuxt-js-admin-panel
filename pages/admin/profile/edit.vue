@@ -39,14 +39,14 @@
       <form>
         <section class="space-y-5">
           <h2 class="text-xl font-bold">Password</h2>
-          <div class="space-y-5">
+          <div class="md:space-y-5">
             <Input
               placeholder="Your old password"
               name="oldPassword"
               type="password"
             />
 
-            <div class="md:flex space-x-10">
+            <div class="md:flex md:space-x-10">
               <Input
                 placeholder="Your new password"
                 name="newPassword"
