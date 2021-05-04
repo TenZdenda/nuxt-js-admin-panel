@@ -29,7 +29,7 @@
           >
             <img
               class="h-10 w-10 md:h-12 md:w-12 rounded-full"
-              src="https://zdenekpasek.com/images/me.jpg"
+              src="https://avatars.githubusercontent.com/u/39481226?v=4"
               alt="Zdeněk"
             />
             <div class="ml-4 hidden md:block">

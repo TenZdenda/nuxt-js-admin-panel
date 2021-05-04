@@ -3,7 +3,7 @@
     <div class="md:flex md:justify-between md:items-center">
       <div class="flex gap-5 md:gap-10 items-center">
         <img
-          src="https://zdenekpasek.com/images/me.jpg"
+          src="https://avatars.githubusercontent.com/u/39481226?v=4"
           alt="Zdeněk Pašek"
           class="h-20 w-20 md:h-24 md:w-24 rounded-xl"
         />
