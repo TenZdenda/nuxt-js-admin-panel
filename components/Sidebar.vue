@@ -96,7 +96,8 @@
     <hr class="border-gray-700" />
     <div>
       <button
-        class="w-full px-4 py-2.5 text-left text-white flex space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl"
+        class="w-full px-4 py-2.5 text-left text-white flex space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl focus:outline-none"
+        @click="logout"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -138,6 +139,9 @@ export default {
   methods: {
     closeMenu() {
       this.$emit('close')
+    },
+    logout() {
+      console.log('logout click')
     },
   },
 }
