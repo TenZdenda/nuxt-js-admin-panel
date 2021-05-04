@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen flex">
     <!-- Fixed sidebar -->
-    <Sidebar :bool="close" @close="toggle" />
+    <Sidebar :bool="close" @close="close = true" />
     <!-- Scroll wrapper -->
     <div class="flex-1 flex overflow-hidden">
       <!-- Scrollable container -->
