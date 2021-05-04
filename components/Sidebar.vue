@@ -21,7 +21,7 @@
         </svg>
         <h1 class="text-2xl font-extrabold">ZeLab</h1>
       </div>
-      <button class="focus:outline-none" @click="closeMenu">
+      <button class="focus:outline-none md:hidden" @click="closeMenu">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
