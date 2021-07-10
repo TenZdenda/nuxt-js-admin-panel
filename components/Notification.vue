@@ -1,6 +1,15 @@
 <template>
   <div
-    class="text-white rounded-lg p-3 shadow-lg max-w-md ease-in-out transition duration-200"
+    class="
+      text-white
+      rounded-lg
+      p-3
+      shadow-lg
+      max-w-md
+      ease-in-out
+      transition
+      duration-200
+    "
     :class="{
       'bg-green-400': type == 'success',
       'bg-red-400': type == 'error',

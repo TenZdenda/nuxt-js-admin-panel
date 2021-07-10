@@ -7,7 +7,22 @@
       </div>
       <nuxt-link
         to="/admin/profile"
-        class="bg-gray-100 hover:bg-gray-300 text-gray-400 hover:text-gray-600 font-semibold py-2 px-6 rounded mx-auto md:mx-0 my-4 md:my-0 block focus:outline-none"
+        class="
+          bg-gray-100
+          hover:bg-gray-300
+          text-gray-400
+          hover:text-gray-600
+          font-semibold
+          py-2
+          px-6
+          rounded
+          mx-auto
+          md:mx-0
+          my-4
+          md:my-0
+          block
+          focus:outline-none
+        "
         >Back to profile</nuxt-link
       >
     </div>
@@ -27,7 +42,15 @@
           <button
             name="submit"
             type="submit"
-            class="px-10 py-4 bg-pink-500 hover:bg-pink-800 text-white font-semibold rounded"
+            class="
+              px-10
+              py-4
+              bg-pink-500
+              hover:bg-pink-800
+              text-white
+              font-semibold
+              rounded
+            "
           >
             Save
           </button>
@@ -64,7 +87,15 @@
           <button
             name="submit"
             type="submit"
-            class="px-10 py-4 bg-pink-500 hover:bg-pink-800 text-white font-semibold rounded"
+            class="
+              px-10
+              py-4
+              bg-pink-500
+              hover:bg-pink-800
+              text-white
+              font-semibold
+              rounded
+            "
           >
             Save
           </button>

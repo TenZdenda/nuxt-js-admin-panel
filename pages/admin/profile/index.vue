@@ -15,7 +15,22 @@
 
       <nuxt-link
         to="/admin/profile/edit"
-        class="bg-gray-100 hover:bg-gray-300 text-gray-400 hover:text-gray-600 font-semibold py-2 px-6 rounded mx-auto md:mx-0 my-4 md:my-0 block focus:outline-none"
+        class="
+          bg-gray-100
+          hover:bg-gray-300
+          text-gray-400
+          hover:text-gray-600
+          font-semibold
+          py-2
+          px-6
+          rounded
+          mx-auto
+          md:mx-0
+          my-4
+          md:my-0
+          block
+          focus:outline-none
+        "
       >
         Edit profile
       </nuxt-link>

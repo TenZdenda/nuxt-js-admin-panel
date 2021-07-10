@@ -1,6 +1,23 @@
 <template>
   <div
-    class="w-64 bg-gray-900 rounded-r-lg text-gray-100 px-5 py-8 space-y-16 absolute inset-y-0 left-0 transform md:relative md:translate-x-0 transition duration-200 ease-in-out z-10"
+    class="
+      w-64
+      bg-gray-900
+      rounded-r-lg
+      text-gray-100
+      px-5
+      py-8
+      space-y-16
+      absolute
+      inset-y-0
+      left-0
+      transform
+      md:relative md:translate-x-0
+      transition
+      duration-200
+      ease-in-out
+      z-10
+    "
     :class="{ '-translate-x-full': bool }"
   >
     <div class="flex justify-between px-4">
@@ -28,7 +45,17 @@
     <nav class="space-y-4">
       <nuxt-link
         to="/admin/dashboard"
-        class="flex items-center space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl px-4 py-2.5"
+        class="
+          flex
+          items-center
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          px-4
+          py-2.5
+        "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +75,17 @@
       </nuxt-link>
       <nuxt-link
         to="/admin/users"
-        class="flex items-center space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl px-4 py-2.5"
+        class="
+          flex
+          items-center
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          px-4
+          py-2.5
+        "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +109,17 @@
       </nuxt-link>
       <nuxt-link
         to="/admin/courses"
-        class="flex items-center space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl px-4 py-2.5"
+        class="
+          flex
+          items-center
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          px-4
+          py-2.5
+        "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -92,7 +139,17 @@
       </nuxt-link>
       <nuxt-link
         to="/admin/staff"
-        class="flex items-center space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl px-4 py-2.5"
+        class="
+          flex
+          items-center
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          px-4
+          py-2.5
+        "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +169,17 @@
       </nuxt-link>
       <nuxt-link
         to="/admin/settings"
-        class="flex items-center space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl px-4 py-2.5"
+        class="
+          flex
+          items-center
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          px-4
+          py-2.5
+        "
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +207,19 @@
     <hr class="border-gray-700" />
     <div>
       <button
-        class="w-full px-4 py-2.5 text-left text-white flex space-x-5 rounded transition duration-200 hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl focus:outline-none"
+        class="
+          w-full
+          px-4
+          py-2.5
+          text-left text-white
+          flex
+          space-x-5
+          rounded
+          transition
+          duration-200
+          hover:bg-white hover:bg-opacity-20 hover:text-gray-100 hover:shadow-xl
+          focus:outline-none
+        "
         @click="logout"
       >
         <svg

@@ -10,7 +10,15 @@
                   v-for="item in thead"
                   :key="item"
                   scope="col"
-                  class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  class="
+                    px-6
+                    py-3
+                    text-left text-xs
+                    font-medium
+                    text-gray-500
+                    uppercase
+                    tracking-wider
+                  "
                 >
                   {{ item }}
                 </th>
@@ -45,7 +53,13 @@
                 </td>
                 <td
                   v-if="updates"
-                  class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium"
+                  class="
+                    px-6
+                    py-4
+                    whitespace-nowrap
+                    text-right text-sm
+                    font-medium
+                  "
                 >
                   <div class="flex space-x-5 items-center text-gray-400">
                     <button

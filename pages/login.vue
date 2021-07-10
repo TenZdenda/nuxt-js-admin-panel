@@ -11,7 +11,17 @@
 
       <button
         type="submit"
-        class="bg-pink-500 text-white py-3 px-14 font-bold mx-auto block rounded mt-10"
+        class="
+          bg-pink-500
+          text-white
+          py-3
+          px-14
+          font-bold
+          mx-auto
+          block
+          rounded
+          mt-10
+        "
       >
         Sign in
       </button>

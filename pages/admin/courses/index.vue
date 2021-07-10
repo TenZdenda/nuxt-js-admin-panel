@@ -32,21 +32,46 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
       <div
-        class="w-full h-48 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-2xl flex"
+        class="
+          w-full
+          h-48
+          bg-gradient-to-br
+          from-purple-500
+          to-indigo-500
+          rounded-2xl
+          flex
+        "
       >
         <div class="m-auto">
           <span class="font-bold text-white text-xl">Courses 1</span>
         </div>
       </div>
       <div
-        class="w-full h-48 bg-gradient-to-br from-green-400 to-blue-500 rounded-2xl flex"
+        class="
+          w-full
+          h-48
+          bg-gradient-to-br
+          from-green-400
+          to-blue-500
+          rounded-2xl
+          flex
+        "
       >
         <div class="m-auto">
           <span class="font-bold text-white text-xl">Courses 1</span>
         </div>
       </div>
       <div
-        class="w-full h-48 bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-2xl flex"
+        class="
+          w-full
+          h-48
+          bg-gradient-to-br
+          from-purple-400
+          via-pink-500
+          to-red-500
+          rounded-2xl
+          flex
+        "
       >
         <div class="m-auto">
           <span class="font-bold text-white text-xl">Courses 1</span>

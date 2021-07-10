@@ -23,7 +23,15 @@
           <button
             name="submit"
             type="submit"
-            class="px-10 py-4 bg-pink-500 hover:bg-pink-800 text-white font-semibold rounded"
+            class="
+              px-10
+              py-4
+              bg-pink-500
+              hover:bg-pink-800
+              text-white
+              font-semibold
+              rounded
+            "
           >
             Create new member
           </button>
